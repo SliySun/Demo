@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoveScoreView">
+        <!--一圈代表最大的爱心值-->
+        <attr name="maxScore" format="integer"/>
+        <!--爱心值文字-->
+        <attr name="text" format="string"/>
+        <!--爱心值-->
+        <attr name="score" format="integer"/>
+        <!--圆环半径-->
+        <attr name="radius" format="dimension"/>
+        <!--圆环宽度-->
+        <attr name="ring_width" format="dimension"/>
+        <!--圆环颜色-->
+        <attr name="ring_color" format="color"/>
+        <!--内环颜色-->
+        <attr name="int_ring_color" format="color"/>
+        <!--刻度颜色-->
+        <attr name="score_color" format="color"/>
+        <!--刻度开始颜色-->
+        <attr name="start_color" format="color"/>
+        <!--刻度结束颜色-->
+        <attr name="end_color" format="color"/>
+        <!--刻度值的字体大小-->
+        <attr name="text_size" format="integer"/>
+        <!--刻度值的字体颜色-->
+        <attr name="text_color" format="color"/>
+        <!--注释的字体大小-->
+        <attr name="sub_text_size" format="integer"/>
+        <!--注释的字体颜色-->
+        <attr name="sub_text_color" format="color"/>
+        <attr name="sub_text_String" format="string"/>
+    </declare-styleable>
+</resources>
